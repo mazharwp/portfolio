@@ -1,0 +1,128 @@
+/* resume.css */
+
+.resume-page {
+  background: #f9f9f9;
+  padding: 40px 0px;
+  font-family: 'Calibri', Arial, Helvetica, sans-serif;
+  font-size: 11pt;          /* Word jaisa size */
+  color: #000;
+  line-height: 1.5;         /* Default breathing space */
+}
+
+.resume-container {
+  max-width: 210mm;         /* A4 width */
+  margin: 0 auto;
+  background: white;
+  padding: 1.5cm 2cm;       /* Proper margins like Word page */
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 30px;      /* Header ke baad space */
+}
+
+.resume-header h1 {
+  font-size: 22pt;
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.resume-header h2 {
+  font-size: 14pt;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.contact-info p {
+  margin: 6px 0;
+  font-size: 11pt;
+}
+
+.resume-section {
+  margin-bottom: 28px;      /* Har section ke beech achha space */
+}
+
+.resume-section h3 {
+  font-size: 13pt;
+  font-weight: bold;
+  margin: 0 0 12px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 4px;
+}
+
+.resume-section h4 {
+  font-size: 12pt;
+  font-weight: bold;
+  margin: 18px 0 8px;
+  color: #222;
+}
+
+.check-list {
+  list-style: none;
+  padding-left: 24px;
+  margin: 10px 0 0;
+}
+
+.check-list li {
+  margin-bottom: 10px;      /* List items mein vertical space */
+  position: relative;
+}
+
+.check-list li:before {
+  content: "✓ ";
+  position: absolute;
+  left: -20px;
+  color: #000;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 0 12px;         /* Paragraphs mein space */
+  line-height: 1.6;         /* Text readable banane ke liye */
+}
+
+.download-section {
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+.download-btn {
+  display: inline-block;
+  background: #007bff;      /* Blue button jaise tere screenshot mein */
+  color: white;
+  padding: 14px 36px;
+  font-size: 14pt;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+  transition: all 0.2s;
+}
+
+.download-btn:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+/* Print friendly – button hide, clean look */
+@media print {
+  .resume-page {
+    padding: 0;
+    background: white;
+  }
+  .resume-container {
+    box-shadow: none;
+    border: none;
+    padding: 1.5cm 2cm;
+    max-width: none;
+  }
+  .download-section {
+    display: none !important;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
