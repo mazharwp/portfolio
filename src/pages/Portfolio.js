@@ -34,7 +34,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={acfUsa} alt="acf-usa.org" />
               </div>
-              <h4 className="portfolio-title"><a href="http://acf-usa.org/" target="_blank">American Culinary Federation</a></h4>
+              <h4 className="portfolio-title"><a href="http://acf-usa.org/" target="_blank" rel="noreferrer">American Culinary Federation</a></h4>
               <p className="portfolio-description">ACF-based, CPT blog and woocommerce also event site with a custom WordPress theme</p>
             </div>
           </div>
@@ -43,7 +43,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={acfwpdemo} alt="theculinaryfuturefondation.org" />
               </div>
-              <h4 className="portfolio-title"><a href="https://theculinaryfuturefondation.org" target="_blank">The Culinary Future Foundation</a></h4>
+              <h4 className="portfolio-title"><a href="https://theculinaryfuturefondation.org" target="_blank" rel="noreferrer">The Culinary Future Foundation</a></h4>
               <p className="portfolio-description">ACF-based and CPT blog site with a custom WordPress theme</p>
             </div>
           </div>
@@ -52,7 +52,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={annkreilkamp} alt="annkreilkamp.net" />
               </div>
-              <h4 className="portfolio-title"><a href="https://annkreilkamp.net/" target="_blank">Ann Kreilkamp – Writer, Thinker, Visionary</a></h4>
+              <h4 className="portfolio-title"><a href="https://annkreilkamp.net/" target="_blank" rel="noreferrer">Ann Kreilkamp – Writer, Thinker, Visionary</a></h4>
               <p className="portfolio-description">Custom theme with company member profiles, blog, filters & user dashboard</p>
             </div>
           </div>
@@ -61,7 +61,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={bishophill} alt="bishophill.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://bishophill.com/" target="_blank">Historic Village & Cultural Heritage Site</a></h4>
+              <h4 className="portfolio-title"><a href="https://bishophill.com/" target="_blank" rel="noreferrer">Historic Village & Cultural Heritage Site</a></h4>
               <p className="portfolio-description">WooCommerce-based store with custom theme</p>
             </div>
           </div>
@@ -70,7 +70,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={christabelllc} alt="christabelllc.co" />
               </div>
-              <h4 className="portfolio-title"><a href="https://christabelllc.co/" target="_blank">Christabel LLC</a></h4>
+              <h4 className="portfolio-title"><a href="https://christabelllc.co/" target="_blank" rel="noreferrer">Christabel LLC</a></h4>
               <p className="portfolio-description">Custom gift card system & email automation on custom WordPress theme</p>
             </div>
           </div>
@@ -79,7 +79,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={cogat107} alt="cogat107.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://cogat107.com/" target="_blank">Cognitive Abilities Test Prep & Insights</a></h4>
+              <h4 className="portfolio-title"><a href="https://cogat107.com/" target="_blank" rel="noreferrer">Cognitive Abilities Test Prep & Insights</a></h4>
               <p className="portfolio-description">WooCommerce + Custom Theme Development</p>
             </div>
           </div>
@@ -88,7 +88,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={dnbending} alt="dnbending.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://dnbending.com/" target="_blank">Precision Pipe and Tube Bending Solutions</a></h4>
+              <h4 className="portfolio-title"><a href="https://dnbending.com/" target="_blank" rel="noreferrer">Precision Pipe and Tube Bending Solutions</a></h4>
               <p className="portfolio-description">ACF-based corporate site with a custom WordPress theme</p>
             </div>
           </div>
@@ -97,7 +97,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={exopermaculture} alt="exopermaculture.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://exopermaculture.com/" target="_blank">Exo Permaculture</a></h4>
+              <h4 className="portfolio-title"><a href="https://exopermaculture.com/" target="_blank" rel="noreferrer">Exo Permaculture</a></h4>
               <p className="portfolio-description">Custom magazine layout for the US Embassy</p>
             </div>
           </div>
@@ -106,7 +106,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={gastonscatering} alt="gastonscatering.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://gastonscatering.com/" target="_blank">Gaston’s Catering</a></h4>
+              <h4 className="portfolio-title"><a href="https://gastonscatering.com/" target="_blank" rel="noreferrer">Gaston’s Catering</a></h4>
               <p className="portfolio-description">ACF-based corporate site with a custom WordPress theme</p>
             </div>
           </div>
@@ -115,7 +115,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={internationalballroom} alt="internationalballroom.net" />
               </div>
-              <h4 className="portfolio-title"><a href="https://internationalballroom.net/" target="_blank">Dance, Elegance, and Community</a></h4>
+              <h4 className="portfolio-title"><a href="https://internationalballroom.net/" target="_blank" rel="noreferrer">Dance, Elegance, and Community</a></h4>
               <p className="portfolio-description">ACF-based and CPT blog site with a custom WordPress theme</p>
             </div>
           </div>
@@ -124,7 +124,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={leipersfork} alt="leipersfork.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://leipersfork.com/" target="_blank">Leiper's Fork</a></h4>
+              <h4 className="portfolio-title"><a href="https://leipersfork.com/" target="_blank" rel="noreferrer">Leiper's Fork</a></h4>
               <p className="portfolio-description">ACF-based and CPT blog site with a custom WordPress theme</p>
             </div>
           </div>
@@ -133,7 +133,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={oshohomeropa} alt="oshohomeropa.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://oshohomeropa.com/" target="_blank">Osho Home Ropa</a></h4>
+              <h4 className="portfolio-title"><a href="https://oshohomeropa.com/" target="_blank" rel="noreferrer">Osho Home Ropa</a></h4>
               <p className="portfolio-description">ACF-based and CPT blog site with a custom WordPress theme</p>
             </div>
           </div>
@@ -142,7 +142,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={tendrepress} alt="tendrepress.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://tendrepress.com" target="_blank">Tendre Press</a></h4>
+              <h4 className="portfolio-title"><a href="https://tendrepress.com" target="_blank" rel="noreferrer">Tendre Press</a></h4>
               <p className="portfolio-description">ACF-based and CPT blog site with a custom WordPress theme</p>
             </div>
           </div>
@@ -151,7 +151,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={neverendingstorybooks} alt="neverendingstorybooks.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://neverendingstorybooks.com/" target="_blank">Neverending Story Books</a></h4>
+              <h4 className="portfolio-title"><a href="https://neverendingstorybooks.com/" target="_blank" rel="noreferrer">Neverending Story Books</a></h4>
               <p className="portfolio-description">Redesign Elementor WordPress theme</p>
             </div>
           </div>
@@ -160,7 +160,7 @@ function Portfolio() {
               <div className="portfolio-img">
                 <img src={celebratehebrew2024} alt="celebratehebrew2024.com" />
               </div>
-              <h4 className="portfolio-title"><a href="https://celebratehebrew2024.com/" target="_blank">Celebrate Hebrew 2024</a></h4>
+              <h4 className="portfolio-title"><a href="https://celebratehebrew2024.com/" target="_blank" rel="noreferrer">Celebrate Hebrew 2024</a></h4>
               <p className="portfolio-description">Redesign Elementor WordPress theme</p>
             </div>
           </div>
