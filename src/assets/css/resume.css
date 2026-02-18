@@ -2,7 +2,7 @@
 
 .resume-page {
   background: #f9f9f9;
-  padding: 40px 0px;
+  padding: 40px 10px;
   font-family: 'Calibri', Arial, Helvetica, sans-serif;
   font-size: 11pt;          /* Word jaisa size */
   color: #000;
@@ -16,6 +16,9 @@
   padding: 1.5cm 2cm;       /* Proper margins like Word page */
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
   border: 1px solid #ddd;
+}
+main {
+    padding: 0px !important;
 }
 
 .resume-header {
