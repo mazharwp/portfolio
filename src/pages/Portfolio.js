@@ -6,6 +6,8 @@ import bishophill from '../assets/images/bishophill.webp';
 import celebratehebrew2024 from '../assets/images/celebratehebrew2024.webp';
 import christabelllc from '../assets/images/Christabelllc.webp';
 import cogat107 from '../assets/images/cogat107.webp';
+import dedicationsolutions from '../assets/images/dedicationsolutions.png';
+import delcielobiewerterriers from '../assets/images/delcielobiewerterriers.png';
 import dnbending from '../assets/images/dnbending.webp';
 import exopermaculture from '../assets/images/exopermaculture.webp';
 import gastonscatering from '../assets/images/gastonscatering.webp';
@@ -15,6 +17,7 @@ import neverendingstorybooks from '../assets/images/neverendingstorybooks.webp';
 import oshohomeropa from '../assets/images/oshohomeropa.webp';
 import tendrepress from '../assets/images/tendrepress.webp';
 import thehonestxchange from '../assets/images/thehonestxchange.png';
+import vegasairductcleaning from '../assets/images/vegasairductcleaning.png';
 
 function Portfolio() {
   return (
@@ -163,7 +166,7 @@ function Portfolio() {
                 <img src={thehonestxchange} alt="thehonestxchange.com" />
               </div>
               <h4 className="portfolio-title"><a href="https://thehonestxchange.com/demo" target="_blank" rel="noreferrer">The Honest Xchange</a></h4>
-              <p className="portfolio-description">ACF-based and Custom Vault Marketplace & Auction Platform with a custom WordPress theme</p>
+              <p className="portfolio-description">ACF-based and Custom Vault Marketplace & Auction Platform with a custom theme</p>
             </div>
           </div>
           <div className="portfolio-item padd-15">
@@ -181,6 +184,33 @@ function Portfolio() {
                 <img src={celebratehebrew2024} alt="celebratehebrew2024.com" />
               </div>
               <h4 className="portfolio-title"><a href="https://celebratehebrew2024.com/" target="_blank" rel="noreferrer">Celebrate Hebrew 2024</a></h4>
+              <p className="portfolio-description">Redesign Elementor WordPress theme</p>
+            </div>
+          </div>
+          <div className="portfolio-item padd-15">
+            <div className="portfolio-item-inner shadow-dark">
+              <div className="portfolio-img">
+                <img src={delcielobiewerterriers} alt="cdelcielobiewerterriers" />
+              </div>
+              <h4 className="portfolio-title"><a href="https://delcielobiewerterriers.com/" target="_blank" rel="noreferrer">Delcielobiewerterriers</a></h4>
+              <p className="portfolio-description">Redesign Elementor WordPress theme</p>
+            </div>
+          </div>
+          <div className="portfolio-item padd-15">
+            <div className="portfolio-item-inner shadow-dark">
+              <div className="portfolio-img">
+                <img src={vegasairductcleaning} alt="vegasairductcleaning.com" />
+              </div>
+              <h4 className="portfolio-title"><a href="https://vegasairductcleaning.com" target="_blank" rel="noreferrer">Vegas Air Duct Cleaning</a></h4>
+              <p className="portfolio-description">Redesign Elementor WordPress theme</p>
+            </div>
+          </div>
+          <div className="portfolio-item padd-15">
+            <div className="portfolio-item-inner shadow-dark">
+              <div className="portfolio-img">
+                <img src={dedicationsolutions} alt="dedicationsolutions1972.com" />
+              </div>
+              <h4 className="portfolio-title"><a href="https://dedicationsolutions1972.com" target="_blank" rel="noreferrer">Dedication Solutions 1972</a></h4>
               <p className="portfolio-description">Redesign Elementor WordPress theme</p>
             </div>
           </div>
