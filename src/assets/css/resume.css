@@ -20,6 +20,9 @@
 main {
     padding: 0px !important;
 }
+footer.footer {
+    display: none;
+}
 
 .resume-header {
   text-align: center;

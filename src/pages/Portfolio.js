@@ -1,5 +1,6 @@
 import acfUsa from '../assets/images/acf-usa.webp';
 import acfwpdemo from '../assets/images/acfwpdemo.webp';
+import americannaturalprocessors from '../assets/images/americannaturalprocessors.png';
 import annkreilkamp from '../assets/images/annkreilkamp.webp';
 import bishophill from '../assets/images/bishophill.webp';
 import celebratehebrew2024 from '../assets/images/celebratehebrew2024.webp';
@@ -13,6 +14,7 @@ import leipersfork from '../assets/images/leipersfork.webp';
 import neverendingstorybooks from '../assets/images/neverendingstorybooks.webp';
 import oshohomeropa from '../assets/images/oshohomeropa.webp';
 import tendrepress from '../assets/images/tendrepress.webp';
+import thehonestxchange from '../assets/images/thehonestxchange.png';
 
 function Portfolio() {
   return (
@@ -144,6 +146,24 @@ function Portfolio() {
               </div>
               <h4 className="portfolio-title"><a href="https://tendrepress.com" target="_blank" rel="noreferrer">Tendre Press</a></h4>
               <p className="portfolio-description">ACF-based and CPT blog site with a custom WordPress theme</p>
+            </div>
+          </div>
+          <div className="portfolio-item padd-15">
+            <div className="portfolio-item-inner shadow-dark">
+              <div className="portfolio-img">
+                <img src={americannaturalprocessors} alt="americannaturalprocessors.com" />
+              </div>
+              <h4 className="portfolio-title"><a href="https://americannaturalprocessors.com/" target="_blank" rel="noreferrer">American natural processors</a></h4>
+              <p className="portfolio-description">WordPress + ACF + WooCommerce Based Custom Theme</p>
+            </div>
+          </div>
+          <div className="portfolio-item padd-15">
+            <div className="portfolio-item-inner shadow-dark">
+              <div className="portfolio-img">
+                <img src={thehonestxchange} alt="thehonestxchange.com" />
+              </div>
+              <h4 className="portfolio-title"><a href="https://thehonestxchange.com/demo" target="_blank" rel="noreferrer">The Honest Xchange</a></h4>
+              <p className="portfolio-description">ACF-based and Custom Vault Marketplace & Auction Platform with a custom WordPress theme</p>
             </div>
           </div>
           <div className="portfolio-item padd-15">
