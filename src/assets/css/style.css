@@ -46,13 +46,7 @@ ul {
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    /* position: absolute; */
-    /* left: 270px; */
     padding: 0 30px;
-    /* top: 0; */
-    /* right: 0; */
-    /* height: 100%; */
-    /* z-index: 10; */
     opacity: 1;
     position: fixed;
     left: 270px;
@@ -823,7 +817,7 @@ h3.my-profession {
 }
 
 .portfolio-tabs button.active {
-  background: #ff4c60;
+  background: #fa5b0f;
   color: #fff;
 }
 .portfolio-img img{
