@@ -810,7 +810,22 @@ h3.my-profession {
         max-width: 100%;
     }
 }
+.portfolio-tabs {
+  margin: 20px 0;
+}
 
+.portfolio-tabs button {
+  margin-right: 10px;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  background: #eee;
+}
+
+.portfolio-tabs button.active {
+  background: #ff4c60;
+  color: #fff;
+}
 .portfolio-img img{
             object-position: top;
             object-fit: cover;
