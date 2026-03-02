@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import acfUsa from '../assets/images/acf-usa.webp';
 import acfwpdemo from '../assets/images/acfwpdemo.webp';
-import americannaturalprocessors from '../assets/images/americannaturalprocessors.png';
+import { default as americannatural, default as americannaturalprocessors } from '../assets/images/americannaturalprocessors.png';
 import annkreilkamp from '../assets/images/annkreilkamp.webp';
 import bestair from '../assets/images/Best-Air-Duct-Cleaning-Las-Vegas.png';
 import bishophill from '../assets/images/bishophill.webp';
@@ -54,6 +54,7 @@ function Portfolio() {
     { img: bestair, title: "Best Air Duct Cleaning Las Vegas", link: "http://vegasairductcleaning.com/", desc: "Redesign Website", category: "redesign" },
     // ================= REACT =================
     { img: mz, title: "Portfolio", link: "https://mazharali.online", desc: "React Website", category: "react" },
+    { img: americannatural, title: "Americannatural", link: "https://americannatural.netlify.app", desc: "React Website", category: "react" },
   ];
 
   const filteredProjects =
