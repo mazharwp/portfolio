@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 function About() {
   return (
@@ -38,7 +38,7 @@ function About() {
                 </div>
                 <div className="row">
                   <div className="buttons padd-15">
-                    <Link to="/contact" className="btn hire-me">
+                    <Link href="/contact" className="btn hire-me">
                       Hire Me
                     </Link>
                   </div>

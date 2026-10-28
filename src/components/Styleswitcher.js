@@ -1,5 +1,6 @@
+"use client";
+
 import { useEffect, useState } from "react";
-import "../assets/css/styleswitcher.css";
 
 function Styleswitcher() {
   const [darkMode, setDarkMode] = useState(false);

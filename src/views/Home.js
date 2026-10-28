@@ -1,7 +1,9 @@
+"use client";
+
+import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js'; // Import Typed.js
 import mazharImage from '../assets/images/mazhar.webp'; // Adjust path if needed
-import resumeDoc from '../assets/images/mz_resume.doc'; // Import the resume file
 
 function Home() {
   const typingRef = useRef(null); // Reference to the typing element
@@ -36,10 +38,10 @@ function Home() {
               <span className="typed-cursor" aria-hidden="true">|</span>
             </h3>
             <p>I build high-performing, SEO-friendly WordPress websites and custom plugins tailored to client goals. Expert in WooCommerce, ACF, and theme development.</p>
-            <a href={resumeDoc} download="Mazhar_Ali_Resume.doc" className="btn">Download CV</a>
+            <a href="/mz_resume.doc" download="Mazhar_Ali_Resume.doc" className="btn">Download CV</a>
           </div>
           <div className="home-img padd-15">
-            <img src={mazharImage} alt="Mazhar Ali" />
+            <Image src={mazharImage} alt="Mazhar Ali" preload style={{ width: 'auto' }} />
           </div>
         </div>
       </div>

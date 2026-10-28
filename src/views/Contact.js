@@ -1,6 +1,7 @@
+"use client";
+
 import emailjs from '@emailjs/browser'; // Import EmailJS
 import { useEffect } from 'react';
-import '../assets/css/style.css'; // Ensure this path is correct
 
 function Contact() {
   useEffect(() => {

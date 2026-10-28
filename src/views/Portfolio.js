@@ -1,8 +1,11 @@
+"use client";
+
+import Image from "next/image";
 import { useState } from "react";
 
 import acfUsa from '../assets/images/acf-usa.webp';
 import acfwpdemo from '../assets/images/acfwpdemo.webp';
-import { default as americannatural, default as americannaturalprocessors } from '../assets/images/americannaturalprocessors.png';
+import americannaturalprocessors from '../assets/images/americannaturalprocessors.png';
 import annkreilkamp from '../assets/images/annkreilkamp.webp';
 import bestair from '../assets/images/Best-Air-Duct-Cleaning-Las-Vegas.png';
 import bishophill from '../assets/images/bishophill.webp';
@@ -54,7 +57,7 @@ function Portfolio() {
     { img: bestair, title: "Best Air Duct Cleaning Las Vegas", link: "http://vegasairductcleaning.com/", desc: "Redesign Website", category: "redesign" },
     // ================= REACT =================
     { img: mz, title: "Portfolio", link: "https://mazharali.online", desc: "React Website", category: "react" },
-    { img: americannatural, title: "Americannatural", link: "https://americannatural.netlify.app", desc: "React Website", category: "react" },
+    { img: americannaturalprocessors, title: "Americannatural", link: "https://americannatural.netlify.app", desc: "React Website", category: "react" },
   ];
 
   const filteredProjects =
@@ -82,7 +85,7 @@ function Portfolio() {
             <div className="portfolio-item padd-15" key={index}>
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src={project.img} alt={project.title} />
+                  <Image src={project.img} alt={project.title} placeholder="blur" />
                 </div>
                 <h4 className="portfolio-title">
                   <a href={project.link} target="_blank" rel="noreferrer">

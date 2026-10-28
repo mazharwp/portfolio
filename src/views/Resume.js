@@ -1,6 +1,5 @@
 import "../assets/css/resume.css";
 
-import resumeDoc from '../assets/images/mz_resume.doc';
 
 const Resume = () => {
   return (
@@ -159,7 +158,7 @@ const Resume = () => {
         </section>
 
         <div className="download-section">
-           <a href={resumeDoc} download="Mazhar_Ali_Resume.doc" className="btn">Download CV</a>
+           <a href="/mz_resume.doc" download="Mazhar_Ali_Resume.doc" className="btn">Download CV</a>
         </div>
 
       </div>
