@@ -25,7 +25,7 @@ import internationalballroom from '../assets/images/internationalballroom.webp';
 import leipersfork from '../assets/images/leipersfork.webp';
 import mz from '../assets/images/mz.png';
 import neverendingstorybooks from '../assets/images/neverendingstorybooks.webp';
-import noahsmimiknits_reduced from '../assets/images/noahsmimiknits_reduced.jpg';
+import noahsmimiknits from '../assets/images/noahsmimiknits.jpg';
 import oshohomeropa from '../assets/images/oshohomeropa.webp';
 import raghavagroup from '../assets/images/raghavagroup.png';
 import sonoranfleetcare from '../assets/images/sonoranfleetcare.png';
@@ -56,7 +56,7 @@ function Portfolio() {
   	{ img: cherylkuckpdx, title: "Personal Blog", link: "https://cherylkuckpdx.com/", desc: "Personal blog and digital writing portfolio website", category: "wp" },
 	  { img: raghavagroup, title: "Raghava Group", link: "https://www.raghavagroup.in/", desc: "Architecture and Structural Design", category: "wp" },
 	  { img: sonoranfleetcare, title: "Sonoran Fleet Care", link: "https://sonoranfleetcare.com/", desc: "Commercial Vehicle Maintenance & Repair", category: "wp" },
-	  { img: noahsmimiknits_reduced, title: "Noah's Mimi Knits", link: "https://noahsmimiknits.com/", desc: "Fashion, Baby Products & Handmade Crafts", category: "wp" },
+	  { img: noahsmimiknits, title: "Noah's Mimi Knits", link: "https://noahsmimiknits.com/", desc: "Fashion, Baby Products & Handmade Crafts", category: "wp" },
     { img: bayoupepusa, title: "BAYOUPEP USA", link: "https://bayoupepusa.com/", desc: "Biotechnology, Laboratory Research & Scientific Supplies", category: "wp" },
     { img: atomixresearch, title: "Atomix Research", link: "https://atomixresearch.com/", desc: "Scientific Research Products", category: "wp" },
 
