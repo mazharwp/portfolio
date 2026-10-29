@@ -50,11 +50,11 @@ function Portfolio() {
     { img: tendrepress, title: "Tendre Press", link: "https://tendrepress.com", desc: "ACF-based CPT blog site", category: "wp" },
     { img: americannaturalprocessors, title: "American Natural Processors", link: "https://americannaturalprocessors.com/", desc: "WordPress + ACF + WooCommerce", category: "wp" },
     { img: thehonestxchange, title: "The Honest Xchange", link: "https://thehonestxchange.com/demo", desc: "Custom Vault Marketplace & Auction Platform", category: "wp" },
-	{ img: casavitac3, title: "The Honest Xchange", link: "https://casavitac3.com/", desc: "Sells research peptides and laboratory research compounds", category: "wp" },	
-	{ img: cherylkuckpdx, title: "The Honest Xchange", link: "https://cherylkuckpdx.com/", desc: "Personal blog and digital writing portfolio website", category: "wp" },
-	{ img: raghavagroup_reduced, title: "The Honest Xchange", link: "https://www.raghavagroup.in/", desc: "Architecture and Structural Design", category: "wp" },
-	{ img: sonoranfleetcare_reduced, title: "The Honest Xchange", link: "https://sonoranfleetcare.com/", desc: "Commercial Vehicle Maintenance & Repair", category: "wp" },
-	{ img: noahsmimiknits_reduced, title: "The Honest Xchange", link: "https://noahsmimiknits.com/", desc: "Fashion, Baby Products & Handmade Crafts", category: "wp" },
+  	{ img: casavitac3, title: "The Honest Xchange", link: "https://casavitac3.com/", desc: "Sells research peptides and laboratory research compounds", category: "wp" },	
+  	{ img: cherylkuckpdx, title: "The Honest Xchange", link: "https://cherylkuckpdx.com/", desc: "Personal blog and digital writing portfolio website", category: "wp" },
+	  { img: raghavagroup_reduced, title: "The Honest Xchange", link: "https://www.raghavagroup.in/", desc: "Architecture and Structural Design", category: "wp" },
+	  { img: sonoranfleetcare_reduced, title: "The Honest Xchange", link: "https://sonoranfleetcare.com/", desc: "Commercial Vehicle Maintenance & Repair", category: "wp" },
+	  { img: noahsmimiknits_reduced, title: "The Honest Xchange", link: "https://noahsmimiknits.com/", desc: "Fashion, Baby Products & Handmade Crafts", category: "wp" },
 
     // ================= REDESIGN =================
     { img: neverendingstorybooks, title: "Neverending Story Books", link: "https://neverendingstorybooks.com/", desc: "Redesign Elementor WordPress theme", category: "redesign" },
