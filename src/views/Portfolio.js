@@ -7,9 +7,13 @@ import acfUsa from '../assets/images/acf-usa.webp';
 import acfwpdemo from '../assets/images/acfwpdemo.webp';
 import americannaturalprocessors from '../assets/images/americannaturalprocessors.png';
 import annkreilkamp from '../assets/images/annkreilkamp.webp';
+import atomixresearch from '../assets/images/atomixresearch.jpg';
+import bayoupepusa from '../assets/images/bayoupepusa.png';
 import bestair from '../assets/images/Best-Air-Duct-Cleaning-Las-Vegas.png';
 import bishophill from '../assets/images/bishophill.webp';
+import casavitac from '../assets/images/casavitac.jpg';
 import celebratehebrew2024 from '../assets/images/celebratehebrew2024.webp';
+import cherylkuckpdx from '../assets/images/cherylkuckpdx.jpg';
 import christabelllc from '../assets/images/Christabelllc.webp';
 import cogat107 from '../assets/images/cogat107.webp';
 import dedicationsolutions from '../assets/images/dedicationsolutions.png';
@@ -19,18 +23,15 @@ import exopermaculture from '../assets/images/exopermaculture.webp';
 import gastonscatering from '../assets/images/gastonscatering.webp';
 import internationalballroom from '../assets/images/internationalballroom.webp';
 import leipersfork from '../assets/images/leipersfork.webp';
-import mz from '../assets/images/mz.webp';
+import mz from '../assets/images/mz.png';
 import neverendingstorybooks from '../assets/images/neverendingstorybooks.webp';
+import noahsmimiknits_reduced from '../assets/images/noahsmimiknits_reduced.jpg';
 import oshohomeropa from '../assets/images/oshohomeropa.webp';
+import raghavagroup from '../assets/images/raghavagroup.png';
+import sonoranfleetcare from '../assets/images/sonoranfleetcare.png';
 import tendrepress from '../assets/images/tendrepress.webp';
 import thehonestxchange from '../assets/images/thehonestxchange.png';
 import vegasairductcleaning from '../assets/images/vegasairductcleaning.png';
-
-import casavitac3 from '../assets/images/casavitac3.jpg';
-import cherylkuckpdx from '../assets/images/cherylkuckpdx.jpg';
-import noahsmimiknits_reduced from '../assets/images/noahsmimiknits_reduced.jpg';
-import raghavagroup_reduced from '../assets/images/raghavagroup_reduced.jpg';
-import sonoranfleetcare_reduced from '../assets/images/sonoranfleetcare_reduced.jpg';
 
 function Portfolio() {
 
@@ -51,11 +52,13 @@ function Portfolio() {
     { img: tendrepress, title: "Tendre Press", link: "https://tendrepress.com", desc: "ACF-based CPT blog site", category: "wp" },
     { img: americannaturalprocessors, title: "American Natural Processors", link: "https://americannaturalprocessors.com/", desc: "WordPress + ACF + WooCommerce", category: "wp" },
     { img: thehonestxchange, title: "The Honest Xchange", link: "https://thehonestxchange.com/demo", desc: "Custom Vault Marketplace & Auction Platform", category: "wp" },
-  	{ img: casavitac3, title: "CasaVita C3", link: "https://casavitac3.com/", desc: "Sells research peptides and laboratory research compounds", category: "wp" },	
+  	{ img: casavitac, title: "CasaVita C3", link: "https://casavitac3.com/", desc: "Sells research peptides and laboratory research compounds", category: "wp" },	
   	{ img: cherylkuckpdx, title: "Personal Blog", link: "https://cherylkuckpdx.com/", desc: "Personal blog and digital writing portfolio website", category: "wp" },
-	  { img: raghavagroup_reduced, title: "Raghava Group", link: "https://www.raghavagroup.in/", desc: "Architecture and Structural Design", category: "wp" },
-	  { img: sonoranfleetcare_reduced, title: "Sonoran Fleet Care", link: "https://sonoranfleetcare.com/", desc: "Commercial Vehicle Maintenance & Repair", category: "wp" },
+	  { img: raghavagroup, title: "Raghava Group", link: "https://www.raghavagroup.in/", desc: "Architecture and Structural Design", category: "wp" },
+	  { img: sonoranfleetcare, title: "Sonoran Fleet Care", link: "https://sonoranfleetcare.com/", desc: "Commercial Vehicle Maintenance & Repair", category: "wp" },
 	  { img: noahsmimiknits_reduced, title: "Noah's Mimi Knits", link: "https://noahsmimiknits.com/", desc: "Fashion, Baby Products & Handmade Crafts", category: "wp" },
+    { img: bayoupepusa, title: "BAYOUPEP USA", link: "https://bayoupepusa.com/", desc: "Biotechnology, Laboratory Research & Scientific Supplies", category: "wp" },
+    { img: atomixresearch, title: "Atomix Research", link: "https://atomixresearch.com/", desc: "Scientific Research Products", category: "wp" },
 
     // ================= REDESIGN =================
     { img: neverendingstorybooks, title: "Neverending Story Books", link: "https://neverendingstorybooks.com/", desc: "Redesign Elementor WordPress theme", category: "redesign" },
@@ -67,7 +70,7 @@ function Portfolio() {
     { img: leipersfork, title: "Leiper's Fork", link: "https://leipersfork.com/", desc: "Redesign Website", category: "redesign" },
     { img: bestair, title: "Best Air Duct Cleaning Las Vegas", link: "http://vegasairductcleaning.com/", desc: "Redesign Website", category: "redesign" },
     // ================= REACT =================
-    { img: mz, title: "Portfolio", link: "https://mazharali.online", desc: "React Website", category: "react" },
+    { img: mz, title: "Portfolio", link: "https://mazharali.netlify.app/", desc: "React Website", category: "react" },
     { img: americannaturalprocessors, title: "Americannatural", link: "https://americannatural.netlify.app", desc: "React Website", category: "react" },
   ];
 
