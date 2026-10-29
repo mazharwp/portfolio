@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js'; // Import Typed.js
-import mazharImage from '../assets/images/mazhar.webp'; // Adjust path if needed
+import mazharImage from '../assets/images/mazhar.jpeg'; // Adjust path if needed
 
 function Home() {
   const typingRef = useRef(null); // Reference to the typing element
