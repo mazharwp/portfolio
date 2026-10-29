@@ -26,6 +26,13 @@ import tendrepress from '../assets/images/tendrepress.webp';
 import thehonestxchange from '../assets/images/thehonestxchange.png';
 import vegasairductcleaning from '../assets/images/vegasairductcleaning.png';
 
+import atomixresearch from '../assets/images/atomixresearch.png';
+import casavitac3 from '../assets/images/casavitac3.png';
+import cherylkuckpdx from '../assets/images/cherylkuckpdx.png';
+import noahsmimiknits_reduced from '../assets/images/noahsmimiknits_reduced.png';
+import raghavagroup_reduced from '../assets/images/raghavagroup_reduced.png';
+import sonoranfleetcare_reduced from '../assets/images/sonoranfleetcare_reduced.png';
+
 function Portfolio() {
 
   const [activeTab, setActiveTab] = useState("all");
@@ -45,6 +52,11 @@ function Portfolio() {
     { img: tendrepress, title: "Tendre Press", link: "https://tendrepress.com", desc: "ACF-based CPT blog site", category: "wp" },
     { img: americannaturalprocessors, title: "American Natural Processors", link: "https://americannaturalprocessors.com/", desc: "WordPress + ACF + WooCommerce", category: "wp" },
     { img: thehonestxchange, title: "The Honest Xchange", link: "https://thehonestxchange.com/demo", desc: "Custom Vault Marketplace & Auction Platform", category: "wp" },
+	{ img: casavitac3, title: "The Honest Xchange", link: "https://casavitac3.com/", desc: "Sells research peptides and laboratory research compounds", category: "wp" },	
+	{ img: cherylkuckpdx, title: "The Honest Xchange", link: "https://cherylkuckpdx.com/", desc: "Personal blog and digital writing portfolio website", category: "wp" },
+	{ img: raghavagroup_reduced, title: "The Honest Xchange", link: "https://www.raghavagroup.in/", desc: "Architecture and Structural Design", category: "wp" },
+	{ img: sonoranfleetcare_reduced, title: "The Honest Xchange", link: "https://sonoranfleetcare.com/", desc: "Commercial Vehicle Maintenance & Repair", category: "wp" },
+	{ img: noahsmimiknits_reduced, title: "The Honest Xchange", link: "https://noahsmimiknits.com/", desc: "Fashion, Baby Products & Handmade Crafts", category: "wp" },
 
     // ================= REDESIGN =================
     { img: neverendingstorybooks, title: "Neverending Story Books", link: "https://neverendingstorybooks.com/", desc: "Redesign Elementor WordPress theme", category: "redesign" },
