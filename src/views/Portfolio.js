@@ -9,7 +9,9 @@ import americannaturalprocessors from '../assets/images/americannaturalprocessor
 import annkreilkamp from '../assets/images/annkreilkamp.webp';
 import bestair from '../assets/images/Best-Air-Duct-Cleaning-Las-Vegas.png';
 import bishophill from '../assets/images/bishophill.webp';
+import casavitac3 from '../assets/images/casavitac3.png';
 import celebratehebrew2024 from '../assets/images/celebratehebrew2024.webp';
+import cherylkuckpdx from '../assets/images/cherylkuckpdx.png';
 import christabelllc from '../assets/images/Christabelllc.webp';
 import cogat107 from '../assets/images/cogat107.webp';
 import dedicationsolutions from '../assets/images/dedicationsolutions.png';
@@ -21,17 +23,13 @@ import internationalballroom from '../assets/images/internationalballroom.webp';
 import leipersfork from '../assets/images/leipersfork.webp';
 import mz from '../assets/images/mz.webp';
 import neverendingstorybooks from '../assets/images/neverendingstorybooks.webp';
+import noahsmimiknits_reduced from '../assets/images/noahsmimiknits_reduced.png';
 import oshohomeropa from '../assets/images/oshohomeropa.webp';
+import raghavagroup_reduced from '../assets/images/raghavagroup_reduced.png';
+import sonoranfleetcare_reduced from '../assets/images/sonoranfleetcare_reduced.png';
 import tendrepress from '../assets/images/tendrepress.webp';
 import thehonestxchange from '../assets/images/thehonestxchange.png';
 import vegasairductcleaning from '../assets/images/vegasairductcleaning.png';
-
-import atomixresearch from '../assets/images/atomixresearch.png';
-import casavitac3 from '../assets/images/casavitac3.png';
-import cherylkuckpdx from '../assets/images/cherylkuckpdx.png';
-import noahsmimiknits_reduced from '../assets/images/noahsmimiknits_reduced.png';
-import raghavagroup_reduced from '../assets/images/raghavagroup_reduced.png';
-import sonoranfleetcare_reduced from '../assets/images/sonoranfleetcare_reduced.png';
 
 function Portfolio() {
 
