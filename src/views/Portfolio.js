@@ -19,6 +19,7 @@ import cogat107 from '../assets/images/cogat107.webp';
 import dedicationsolutions from '../assets/images/dedicationsolutions.png';
 import delcielobiewerterriers from '../assets/images/delcielobiewerterriers.png';
 import dnbending from '../assets/images/dnbending.webp';
+import elizabethhearn from '../assets/images/elizabethhearn.jpg';
 import exopermaculture from '../assets/images/exopermaculture.webp';
 import gastonscatering from '../assets/images/gastonscatering.webp';
 import internationalballroom from '../assets/images/internationalballroom.webp';
@@ -72,6 +73,8 @@ function Portfolio() {
     // ================= REACT =================
     { img: mz, title: "Portfolio", link: "https://mazharali.netlify.app/", desc: "React Website", category: "react" },
     { img: americannaturalprocessors, title: "Americannatural", link: "https://americannatural.netlify.app", desc: "React Website", category: "react" },
+    // ================= HTML =================
+    { img: elizabethhearn, title: "Elizabeth Hearn", link: "https://sampledemo.wp.urdemo.website/elizabethhearn/", desc: "Psychotherapy, Counselling, Spirituality & Creative Writing", category: "html" },
   ];
 
   const filteredProjects =
@@ -91,6 +94,7 @@ function Portfolio() {
           <button onClick={() => setActiveTab("wp")} className={activeTab === "wp" ? "active" : ""}>WP Development</button>
           <button onClick={() => setActiveTab("redesign")} className={activeTab === "redesign" ? "active" : ""}>Redesign</button>
           <button onClick={() => setActiveTab("react")} className={activeTab === "react" ? "active" : ""}>React</button>
+          <button onClick={() => setActiveTab("html")} className={activeTab === "html" ? "active" : ""}>HTML</button>
         </div>
 
         {/* Portfolio Items */}
